@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:ellipsize="none"
         android:text="Cambiar Contraseña" />
 
     <LinearLayout
@@ -36,7 +37,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
 
         <TextView
             android:id="@+id/tvContraNueva"
@@ -49,7 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
 
         <TextView
             android:id="@+id/tvContraRep"
@@ -62,7 +65,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true" />
 
         <Button
             android:id="@+id/bGuardar"
